@@ -1,0 +1,65 @@
+EESchema Schematic File Version 4
+LIBS:Rigol-DL3021-Adapter-cache
+EELAYER 26 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "Rigol DL3021 Adapter"
+Date "2019-02-02"
+Rev "1.0"
+Comp "www.MarkFromSales.com"
+Comment1 "Converts binding posts to banana jacks"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5C3E05ED
+P 1500 3250
+F 0 "H1" H 1600 3301 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1600 3210 50  0000 L CNN
+F 2 "MountingHole:MountingHole_6.4mm_M6_Pad" H 1500 3250 50  0001 C CNN
+F 3 "~" H 1500 3250 50  0001 C CNN
+	1    1500 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5C3E069A
+P 2900 3250
+F 0 "H2" H 3000 3301 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3000 3210 50  0000 L CNN
+F 2 "MountingHole:MountingHole_6.4mm_M6_Pad" H 2900 3250 50  0001 C CNN
+F 3 "~" H 2900 3250 50  0001 C CNN
+	1    2900 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5C3E08E9
+P 1500 4000
+F 0 "H3" H 1400 3958 50  0000 R CNN
+F 1 "MountingHole_Pad" H 1400 4049 50  0000 R CNN
+F 2 "MountingHole:MountingHole_5.3mm_M5_Pad" H 1500 4000 50  0001 C CNN
+F 3 "~" H 1500 4000 50  0001 C CNN
+	1    1500 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5C3E08EF
+P 2900 4000
+F 0 "H4" H 2800 3958 50  0000 R CNN
+F 1 "MountingHole_Pad" H 2800 4049 50  0000 R CNN
+F 2 "MountingHole:MountingHole_5.3mm_M5_Pad" H 2900 4000 50  0001 C CNN
+F 3 "~" H 2900 4000 50  0001 C CNN
+	1    2900 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2900 3350 2900 3900
+Wire Wire Line
+	1500 3350 1500 3900
+$EndSCHEMATC
