@@ -1,0 +1,138 @@
+EESchema Schematic File Version 4
+LIBS:Breadboard-Adapters-cache
+EELAYER 26 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "Breadboard Power Terminals (Small)"
+Date "2019-02-02"
+Rev "1.0"
+Comp "www.MarkFromSales.com"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Screw_Terminal_01x07 J3
+U 1 1 5C24541A
+P 3250 2950
+F 0 "J3" H 3200 2500 50  0000 L CNN
+F 1 "Screw_Terminal_01x07" H 3200 2400 50  0000 L CNN
+F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-7_1x07_P2.54mm_Horizontal" H 3250 2950 50  0001 C CNN
+F 3 "~" H 3250 2950 50  0001 C CNN
+	1    3250 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x07 J2
+U 1 1 5C245472
+P 2650 2950
+F 0 "J2" H 2650 3400 50  0000 C CNN
+F 1 "Screw_Terminal_01x07" H 3000 3500 50  0000 C CNN
+F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-7_1x07_P2.54mm_Horizontal" H 2650 2950 50  0001 C CNN
+F 3 "~" H 2650 2950 50  0001 C CNN
+	1    2650 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J1
+U 1 1 5C245586
+P 2900 2050
+F 0 "J1" V 2866 1862 50  0000 R CNN
+F 1 "Screw_Terminal_01x02" V 2775 1862 50  0000 R CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 2900 2050 50  0001 C CNN
+F 3 "~" H 2900 2050 50  0001 C CNN
+	1    2900 2050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2850 3250 2850 3150
+Wire Wire Line
+	2850 2250 2900 2250
+Connection ~ 2850 2650
+Wire Wire Line
+	2850 2650 2850 2250
+Connection ~ 2850 2750
+Wire Wire Line
+	2850 2750 2850 2650
+Connection ~ 2850 2850
+Wire Wire Line
+	2850 2850 2850 2750
+Connection ~ 2850 2950
+Wire Wire Line
+	2850 2950 2850 2850
+Connection ~ 2850 3050
+Wire Wire Line
+	2850 3050 2850 2950
+Connection ~ 2850 3150
+Wire Wire Line
+	2850 3150 2850 3050
+Wire Wire Line
+	3050 3250 3050 3150
+Wire Wire Line
+	3050 2250 3000 2250
+Connection ~ 3050 2650
+Wire Wire Line
+	3050 2650 3050 2250
+Connection ~ 3050 2750
+Wire Wire Line
+	3050 2750 3050 2650
+Connection ~ 3050 2850
+Wire Wire Line
+	3050 2850 3050 2750
+Connection ~ 3050 2950
+Wire Wire Line
+	3050 2950 3050 2850
+Connection ~ 3050 3050
+Wire Wire Line
+	3050 3050 3050 2950
+Connection ~ 3050 3150
+Wire Wire Line
+	3050 3150 3050 3050
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5C245835
+P 1850 1950
+F 0 "H2" H 1950 1996 50  0000 L CNN
+F 1 "MountingHole" H 1950 1905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1850 1950 50  0001 C CNN
+F 3 "~" H 1850 1950 50  0001 C CNN
+	1    1850 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5C24587D
+P 1850 2150
+F 0 "H3" H 1950 2196 50  0000 L CNN
+F 1 "MountingHole" H 1950 2105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1850 2150 50  0001 C CNN
+F 3 "~" H 1850 2150 50  0001 C CNN
+	1    1850 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5C2458A1
+P 1850 2350
+F 0 "H4" H 1950 2396 50  0000 L CNN
+F 1 "MountingHole" H 1950 2305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1850 2350 50  0001 C CNN
+F 3 "~" H 1850 2350 50  0001 C CNN
+	1    1850 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5C2458C5
+P 1850 1750
+F 0 "H1" H 1950 1796 50  0000 L CNN
+F 1 "MountingHole" H 1950 1705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1850 1750 50  0001 C CNN
+F 3 "~" H 1850 1750 50  0001 C CNN
+	1    1850 1750
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
