@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Power-Interposer-Board-AC-cache
 EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
@@ -35,27 +36,8 @@ F 3 "~" H 6400 4300 50  0001 C CNN
 	1    6400 4300
 	1    0    0    1   
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J3
-U 1 1 5C907A80
-P 5650 3600
-F 0 "J3" V 5700 4200 50  0000 R CNN
-F 1 "AC_Sense" V 5600 4200 50  0000 R CNN
-F 2 "Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical" H 5650 3600 50  0001 C CNN
-F 3 "~" H 5650 3600 50  0001 C CNN
-	1    5650 3600
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	5250 4300 6200 4300
-Wire Wire Line
-	5650 3800 5650 4200
-Wire Wire Line
-	5250 4200 5650 4200
-Wire Wire Line
-	5750 3800 5750 4200
-Wire Wire Line
-	5750 4200 6200 4200
 Wire Wire Line
 	5250 4400 6200 4400
 $Comp
@@ -102,4 +84,34 @@ F 3 "~" H 7450 4200 50  0001 C CNN
 	1    7450 4200
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Conn_01x01_Female BJ1
+U 1 1 5C96F2BA
+P 5800 3350
+F 0 "BJ1" V 5740 3262 50  0000 R CNN
+F 1 "Sense_OUT" V 5649 3262 50  0000 R CNN
+F 2 "Connector:CalTest_CT3151" H 5800 3350 50  0001 C CNN
+F 3 "~" H 5800 3350 50  0001 C CNN
+	1    5800 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female BJ2
+U 1 1 5C96F3E8
+P 5600 3050
+F 0 "BJ2" V 5540 2962 50  0000 R CNN
+F 1 "Sense_IN" V 5449 2962 50  0000 R CNN
+F 2 "Connector:CalTest_CT3151" H 5600 3050 50  0001 C CNN
+F 3 "~" H 5600 3050 50  0001 C CNN
+	1    5600 3050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5250 4200 5600 4200
+Wire Wire Line
+	5600 4200 5600 3250
+Wire Wire Line
+	5800 3550 5800 4200
+Wire Wire Line
+	5800 4200 6200 4200
 $EndSCHEMATC
