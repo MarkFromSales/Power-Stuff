@@ -10,6 +10,14 @@
   )
 
   (page A4)
+  (title_block
+    (title "C64 Power Supply")
+    (date 2019-05-12)
+    (rev 0.1)
+    (company www.MarkFromSales.com)
+    (comment 1 "Made to fit Hammond RL6435 - http://www.hammondmfg.com/pdf/RL6435.pdf")
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)

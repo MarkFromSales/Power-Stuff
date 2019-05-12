@@ -16,6 +16,7 @@
     (rev 0.1)
     (company www.MarkFromSales.com)
     (comment 1 "Made to fit Hammond RL6435 - http://www.hammondmfg.com/pdf/RL6435.pdf")
+    (comment 2 https://github.com/MarkFromSales/Power-Stuff/tree/master/C64-Power-Supply)
   )
 
   (layers
