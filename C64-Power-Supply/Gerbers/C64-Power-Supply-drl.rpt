@@ -1,0 +1,28 @@
+Drill report for C:/Users/markd/OneDrive/Documents/Projects-Github/Power-Stuff/C64-Power-Supply/C64-Power-Supply.kicad_pcb
+Created on 5/12/2019 9:22:16 PM
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'C64-Power-Supply-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.40mm  0.016"  (5 holes)
+    T2  0.76mm  0.030"  (13 holes)
+    T3  1.20mm  0.047"  (6 holes)
+    T4  1.60mm  0.063"  (4 holes)
+    T5  1.70mm  0.067"  (16 holes)
+    T6  3.20mm  0.126"  (1 hole)
+
+    Total plated holes count 45
+
+
+Drill file 'C64-Power-Supply-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  3.20mm  0.126"  (3 holes)
+
+    Total unplated holes count 3
