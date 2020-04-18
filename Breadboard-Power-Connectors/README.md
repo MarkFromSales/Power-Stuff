@@ -6,6 +6,7 @@ I got tired of dealing with mediocre screw terminals on breadboard panels and ma
 
 ID | Description | Digi-Key PN
 -- | ----------- | -----------
+Dx | Schottky Diode Through Hole DO-27, Axial | 80SQ045NRLGOSCT-ND
 J2,J4,J6,J8 | TE Connectivity AMP Connectors 01x04 screw terminal block | A98335-ND
 J1 | Cal Test Electronics Banana Jack Panel Mount, Through Hole, Right Angle	BLACK  | BKCT3151SP-0-ND
 J3 | Cal Test Electronics Banana Jack Panel Mount, Through Hole, Right Angle	RED    | BKCT3151SP-2-ND
